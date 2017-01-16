@@ -85,7 +85,7 @@ class NTPClient {
     unsigned long getEpochTime();
 
     /**
-     * @return time in ms since last update
+     * @return ms of last update
      */
     unsigned long getLastUpdate();
 
