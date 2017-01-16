@@ -85,6 +85,11 @@ class NTPClient {
     unsigned long getEpochTime();
 
     /**
+     * @return time in ms since last update
+     */
+    unsigned long getLastUpdate();
+
+    /**
      * Stops the underlying UDP client
      */
     void end();
